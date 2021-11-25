@@ -1,0 +1,344 @@
+@charset euc-kr;
+
+/* slider */
+.slick-slider{position:relative;display:block;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent;}
+.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0;}
+.slick-list:focus{outline:none;}
+.slick-list.dragging{cursor:pointer;cursor:hand;}
+.slick-slider .slick-track,
+.slick-slider .slick-list{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
+.slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto;}
+.slick-track:before,
+.slick-track:after{display:table;content:'';}
+.slick-track:after{clear:both;}
+.slick-loading .slick-track{visibility:hidden;}
+.slick-slide{display:none;float:left;height:100%;min-height:1px;}
+[dir='rtl'] .slick-slide{float:right;}
+.slick-slide img{display:block;}
+.slick-slide.slick-loading img{display:none;}
+.slick-slide.dragging img{pointer-events:none;}
+.slick-initialized .slick-slide{display:block;}
+.slick-loading .slick-slide{visibility:hidden;}
+.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent;}
+.slick-arrow.slick-hidden{display:none;}
+.slick-dots{text-align:center;}
+.slick-dots li{display:inline-block;}
+.slick-dots li button{display:block;width:20px;height:20px;font-size:0;border:0;}
+.slick-dots li.slick-active button{}
+
+/* common text */
+.txt-title-box{text-align:center;}
+.txt-title-box span{position:relative;display:inline-block;font-weight:700;font-size:40px;color:#111;letter-spacing:-0.03em;}
+.txt-sb-tit{display:block;text-align:center;margin-top:20px;font-weight:300;font-size:18px;color:#454545;}
+
+/* top banner */
+.main-top-wrap{position:relative;margin-top:-158px;}
+.main-top-wrap .top-banner-slide{height:640px;overflow:hidden;}
+.main-top-wrap .top-banner-slide.slick-initialized{}
+.main-top-wrap .top-banner-slide .banner-slide:focus{outline:0;}
+.main-top-wrap .top-banner-slide .banner-slide{height:640px;background-size:cover;background-repeat:no-repeat;background-position:50% 0;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap{width:1200px;margin:0 auto;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap a:focus{outline:0;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap .top-txt-1{display:block;padding-top:190px;font-weight:700;font-size:20px;color:#111;letter-spacing:-0.016em;}
+.main-top-wrap .top-banner-slide.commerce-ver .banner-slide .text-wrap .top-txt-1{padding-top:192px;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap .top-txt-2{position:relative;display:block;margin-top:2px;line-height:96px;font-weight:700;font-size:70px;color:#111;letter-spacing:-0.55px;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap .top-txt-2 strong{font-family:'Roboto';}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap .top-txt-2 .font-st{font-family:'Montserrat','Noto Sans KR','Roboto';letter-spacing:-0.025em;font-weight:700;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap .top-txt-2.img-icon:after{display:block;content:'';position:absolute;top:137px;left:267px;width:95px;height:70px;background:url(https://img.godo.co.kr/godomall_v2/main/icon_live.png) no-repeat 0 0;background-size:100%;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap .top-txt-3{display:block;margin-top:7px;line-height:28px;font-weight:300;font-size:18px;color:#111;letter-spacing:-0.03em;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap .top-txt-4{display:block;margin-top:27px;font-weight:600;font-size:36px;color:#111;letter-spacing:-0.015em;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-conf .top-txt-1{padding-top:180px;}
+.main-top-wrap .top-banner-slide.commerce-ver .banner-slide .text-wrap.type-conf .top-txt-1{padding-top:240px;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-conf .top-txt-2{margin-top:15px;line-height:60px;letter-spacing:0;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-conf .top-txt-2 strong{font-weight:800;font-size:78px;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-conf .top-txt-2 .font-mt{font-family:'Montserrat';font-weight:500;font-size:54px;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-conf .top-txt-2 .font-mt2{font-family:'Montserrat';font-weight:800;font-size:54px;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-conf .top-txt-3{margin-top:17px;font-family:'Montserrat';font-weight:700;font-size:28px;letter-spacing:0;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-conf .btn-detail{margin-top:40px;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-conf2 .top-txt-1{padding-top:192px;}
+.main-top-wrap .top-banner-slide.commerce-ver .banner-slide .text-wrap.type-conf2 .top-txt-1{padding-top:192px;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-conf2 .top-txt-2{margin-top:15px;line-height:60px;letter-spacing:0;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-conf2 .top-txt-2 strong{font-size:70px;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-conf2 .top-txt-4{font-weight:500;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-conf2 .btn-detail.ori{margin-top:40px;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-white .top-txt-1{color:#fff;font-weight:400;font-size:30px;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-white .top-txt-1 span{font-family:'Montserrat','Noto Sans KR','Roboto';font-size:32px;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-white .top-txt-2{color:#fff;}
+.main-top-wrap .top-banner-slide .banner-slide .text-wrap.type-white .top-txt-3{color:#fff;}
+.main-top-wrap .top-banner-slide .btn-shop{margin-top:30px;width:208px;}
+.main-top-wrap .top-banner-slide .btn-shop span{background:none;padding:0;}
+.main-top-wrap .top-banner-slide .btn-event{display:inline-block;height:60px;line-height:60px;padding:0 48px 0 41px;margin-left:8px;text-align:center;box-sizing:border-box;border-radius:30px;border:1px solid #333;}
+.main-top-wrap .top-banner-slide .btn-event span{display:inline-block;font-weight:700;font-size:18px;color:#333;}
+.main-top-wrap .top-banner-slide .text-wrap.type-white .btn-event{border:1px solid #fff;}
+.main-top-wrap .top-banner-slide .text-wrap.type-white .btn-event span{color:#fff;}
+.main-top-wrap .top-banner-slide .btn-detail{display:inline-block;height:60px;line-height:60px;margin-top:40px;padding:0 37px 0 37px;text-align:center;box-sizing:border-box;border-radius:30px;background:#f7444e;}
+.main-top-wrap .top-banner-slide .btn-detail:hover{background:#d23a42}
+.main-top-wrap .top-banner-slide .btn-detail span{display:inline-block;font-weight:700;font-size:18px;color:#fff;}
+.main-top-wrap .top-banner-slide .slick-arrow{position:absolute;bottom:30px;right:50%;display:block;width:50px;height:50px;font-size:0;cursor:pointer;z-index:10;}
+.main-top-wrap .top-banner-slide .slick-prev{background:url(https://img.godo.co.kr/godomall_v2/main/btn_mTop_prev.png) no-repeat 0 50%;margin-right:-540px;}
+.main-top-wrap .top-banner-slide .slick-next{background:url(https://img.godo.co.kr/godomall_v2/main/btn_mTop_next.png) no-repeat 0 50%;margin-right:-600px;}
+.main-top-wrap .top-banner-slide .slick-prev:hover{background:url(https://img.godo.co.kr/godomall_v2/main/btn_mTop_prev_on.png) no-repeat 0 50%;margin-right:-540px;}
+.main-top-wrap .top-banner-slide .slick-next:hover{background:url(https://img.godo.co.kr/godomall_v2/main/btn_mTop_next_on.png) no-repeat 0 50%;margin-right:-600px;}
+.main-top-wrap .top-banner-slide .main-top-paging{position:absolute;bottom:47px;left:50%;margin-left:-554px;}
+.main-top-wrap .top-banner-slide .main-top-paging li{display:inline-block;margin:0 6px;cursor:pointer;}
+.main-top-wrap .top-banner-slide .main-top-paging .pg-counts{display:inline-block;font-family:'Roboto';font-weight:600;font-size:14px;letter-spacing:-0.019em;border-bottom:1px solid rgba(17,17,17, .2);color:#111;opacity:0.2;}
+.main-top-wrap .top-banner-slide .main-top-paging .slick-active .pg-counts{color:#111;border-bottom:1px solid #111;opacity:1;}
+.main-top-wrap .main-slide-paStop{position:absolute;width:8px;height:12px;bottom:47px;left:50%;margin-left:-588px;}
+.main-top-wrap .main-slide-paStop button{display:block;width:8px;height:12px;font-size:0;position:absolute;top:-2px;left:5px;}
+.main-top-wrap .main-slide-paStop .btn-pause{width:8px;height:12px;cursor:pointer;z-index:10;background:url(https://img.godo.co.kr/godomall_v2/main/btn_main_pause.png) no-repeat 0 50%;}
+.main-top-wrap .main-slide-paStop .btn-play{display:none;cursor:pointer;z-index:10;width:11px;background:url(https://img.godo.co.kr/godomall_v2/main/btn_main_play.png) no-repeat 0 50%;background-size:11px 12px;}
+.banner-progress{width:32px;height:32px;position:absolute;left:-10px;bottom:-10px;}
+.banner-progress span{display:block;box-sizing:border-box;width:32px;height:32px;border:3px solid #fff;border-radius:50%;animation: loading 1.8s linear forwards;}
+/* .main-top-wrap .icon-sDown{position:absolute;bottom:30px;left:50%;margin-left:-28px;}
+.main-top-wrap .icon-sDown span{display:block;width:14px;height:8px;margin:2px auto 0;}
+.main-top-wrap .icon-sDown .icon-sc-top{background:url(https://img.godo.co.kr/godomall_v2/main/icon_scroll_1.png) no-repeat 0 50%;animation:scrollAni .7s infinite linear alternate;}
+.main-top-wrap .icon-sDown .icon-sc-mid{background:url(https://img.godo.co.kr/godomall_v2/main/icon_scroll_2.png) no-repeat 0 50%;animation:scrollAni .7s infinite .2s linear alternate;}
+.main-top-wrap .icon-sDown .icon-sc-bot{background:url(https://img.godo.co.kr/godomall_v2/main/icon_scroll_3.png) no-repeat 0 50%;animation:scrollAni .7s infinite .4s linear alternate;}
+.main-top-wrap .icon-sDown strong{display:block;margin-top:5px;font-family:'Montserrat';font-weight:700;font-size:12px;color:#111;letter-spacing:0.134em;} */
+@-webkit-keyframes scrollAni{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+@-moz-keyframes scrollAni{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+@-ms-keyframes scrollAni{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+@keyframes scrollAni{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+@-webkit-keyframes loading-r{
+    0%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}
+}
+@-moz-keyframes loading-r{
+    0%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}
+}
+@-ms-keyframes loading-r{
+    0%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}
+}
+@keyframes loading-r{
+    0%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}
+}
+@-webkit-keyframes loading-l{
+    0%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}
+}
+@-moz-keyframes loading-l{
+    0%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}
+}
+@-ms-keyframes loading-l{
+    0%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}
+}
+@keyframes loading-l{
+    0%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}
+}
+.pg-progress{position:absolute;left:-9px;bottom:-9px;width:36px;height:36px;line-height:36px;background:none;margin:0 auto;box-shadow:none;box-sizing:border-box;}
+.pg-progress.ie9:after{border:4px solid #111;}
+.pg-progress:after{content:'';width:100%;height:100%;border-radius:50%;border:4px solid #fff;position:absolute;top:0;left:0;box-sizing:border-box;}
+.pg-progress > span{width:50%;height:100%;overflow:hidden;position:absolute;z-index:1;transform:rotate(-90deg);}
+.pg-progress .progress-left{left:9px;bottom:-9px;}
+.pg-progress.ie .progress-left{left:9.5px;}
+.pg-progress .progress-bar{width:100%;height:100%;background:none;border-width:4px;border-style:solid;position:absolute;color:#111;box-sizing:border-box;top:0;}
+.pg-progress .progress-left .progress-bar{left:100%;border-top-right-radius:80px;border-bottom-right-radius:80px;border-left:0;-webkit-transform-origin:center left;transform-origin:center left;}
+.pg-progress.on .progress-left .progress-bar{animation:loading-l 2.5s linear forwards 2.49s;}
+.pg-progress .progress-left .progress-bar.pause{animation-play-state:paused;}
+.pg-progress .progress-right{left:9px;top:-9px;}
+.pg-progress .progress-right .progress-bar{left:-100%;border-top-left-radius:80px;border-bottom-left-radius:80px;border-right:0;-webkit-transform-origin:center right;transform-origin:center right;}
+.pg-progress.on .progress-right .progress-bar{animation:loading-r 2.5s linear forwards;}
+.pg-progress .progress-right .progress-bar.pause{animation-play-state:paused;}
+
+/* 포트폴리오 */
+.section-1{padding:90px 0 90px;background:#f7f7f7;}
+.section-1 .txt-title-box em:before{display:block;content:'';width:10px;height:13px;background:url(https://img.godo.co.kr/godomall_v2/main/icon_cl_1_3.png) no-repeat 0 0;position:absolute;top:-13px;right:0;background-size:100%;}
+.section-1 .txt-title-box em:after{display:block;content:'';width:15px;height:19px;background:url(https://img.godo.co.kr/godomall_v2/main/icon_cl_1_4.png) no-repeat 0 0;position:absolute;top:-4px;right:-20px;background-size:100%;}
+.pf-cont-wrap .list-box{overflow:hidden;}
+.pf-cont-wrap .list-box .list-slide-wrap{width:1200px;margin:0 auto;}
+.pf-cont-wrap .list-box .list-slide-wrap .list-ct-box:after{display:block;content:'';clear:both;}
+.pf-cont-wrap .list-box .list-slide-wrap .list-ct-box strong{display:block;margin-top:32px;margin-bottom:20px;margin-left:12px;font-weight:500;font-size:20px;color:#111;}
+.pf-cont-wrap .list-box .list-slide-wrap.type-more{display:none;padding-top:0;}
+.pf-cont-wrap .list-box .list-slide-wrap .list-ct-box{margin-left:-12px;margin-right:-12px;}
+/* .pf-cont-wrap .list-box .list-slide-wrap.slick-initialized{display:block;}
+.pf-cont-wrap .list-box .list-slide-wrap .slick-list{overflow:inherit;} */
+.pf-cont-wrap .list-box .pf-btn-wrap{text-align:center;margin-top:5px;}
+.pf-cont-wrap .list-box .pf-btn-wrap .btn-more{display:inline-block;text-align:center;width:180px;height:54px;line-height:54px;border-radius:27px;border:1px solid #111;}
+.pf-cont-wrap .list-box .pf-btn-wrap .btn-more span{padding-right:25px;font-size:18px;color:#111;background:url(https://img.godo.co.kr/godomall_v2/main/icon_more_bt.png) no-repeat 100% 50%;background-size:15px 10px;}
+.pf-cont-wrap .pf-tab{text-align:center;margin-top:57px;}
+.pf-cont-wrap .pf-tab li{display:inline-block;}
+.pf-cont-wrap .pf-tab li a{display:inline-block;margin:0 16px;font-weight:400;line-height:16px;font-size:18px;color:#737373;vertical-align:middle;letter-spacing:-0.032em;}
+.pf-cont-wrap .pf-tab li.on a{font-weight:700;color:#111;text-decoration:underline;}
+.pf-cont-wrap .slick-list .slick-track{backface-visibility: hidden;-webkit-backface-visibility: hidden;}
+.pf-cont-wrap .pf-list{}
+.pf-cont-wrap .pf-list .list-box{}
+.pf-cont-wrap .pf-list .list-item{display:block;position:relative;margin:0 12px 24px 12px;border-radius:4px;box-sizing:border-box;float:left;-webkit-transform:translateZ(0.1px);-moz-transform:translateZ(0.1px);-ms-transform:translateZ(0.1px);transform:translateZ(0.1px);transition:transform .5s;}
+.pf-cont-wrap .pf-list .list-item:focus{outline:0;}
+.pf-cont-wrap .pf-list .list-item img{width:180px;height:165px;text-align:center;vertical-align:middle;}
+.pf-cont-wrap .pf-list .list-item .txt-brand{display:none;}
+.pf-cont-wrap .pf-list .list-item:hover{box-shadow:10px 18px 13px 0 rgba(0, 0, 0, 0.1);-webkit-transform:translate(0, -10px);-moz-transform:translate(0, -10px);-ms-transform:translate(0, -10px);transform:translate(0, -10px);}
+.pf-cont-wrap .pf-list .list-item:hover .txt-brand{display:inline-block;min-width:124px;max-height:56px;box-sizing:border-box;text-align:center;padding:7px 17px;border-radius:28px;font-weight:400;line-height:20px;font-size:14px;color:#fff;background:#f7444e;letter-spacing:-0.03em;position:absolute;left:50%;bottom:-15px;transform:translate(-50%,0)}
+.pf-cont-wrap .pf-list .list-item:before{box-shadow:none;}
+/* .pf-cont-wrap .pf-list .list-item:after{display:block;content:'';width:180px;height:180px;border-radius:50%;background:rgba(255,255,255,0.9);position:absolute;top:12px;left:12px;z-index:10;} */
+.pf-cont-wrap .pf-list .list-item.slick-active:after{display:none;}
+.pf-cont-wrap .pf-list .list-item.slick-active:hover:before{display:block;content:'';width:180px;height:180px;border-radius:50%;background:rgba(0,0,0,0);box-shadow:0 15px 22px rgba(0,0,0,0.1);position:absolute;top:12px;left:12px;}
+.pf-cont-wrap .pf-list .list-item.pd-active:after{display:block;content:'';width:180px;height:180px;border-radius:50%;background:rgba(255,255,255,0.9);position:absolute;top:12px;left:12px;z-index:10;}
+.pf-cont-wrap .pf-list .list-ct-box .img-dft{display:block;width:180px;height:165px;margin:0 12px 24px 12px;border-radius:4px;box-sizing:border-box;float:left;-webkit-transform:translateZ(0.1px);-moz-transform:translateZ(0.1px);-ms-transform:translateZ(0.1px);transform:translateZ(0.1px);}
+.pf-cont-wrap .slick-arrow{display:block;width:50px;height:51px;position:absolute;top:50%;font-size:0;cursor:pointer;z-index:10;}
+.pf-cont-wrap .slick-prev{background:url(https://img.godo.co.kr/godomall_v2/main/btn_pf_prev.png) no-repeat 0 0;left:-25px;margin-top:-25px;}
+.pf-cont-wrap .slick-next{background:url(https://img.godo.co.kr/godomall_v2/main/btn_pf_next.png) no-repeat 0 0;right:-25px;margin-top:-25px;}
+.pf-cont-wrap .slick-prev:hover{background:url(https://img.godo.co.kr/godomall_v2/main/btn_pf_prev_on.png) no-repeat 0 0;}
+.pf-cont-wrap .slick-next:hover{background:url(https://img.godo.co.kr/godomall_v2/main/btn_pf_next_on.png) no-repeat 0 0;}
+ 
+/* 쇼핑몰 운영 서비스 */
+.section-2{height:1160px;box-sizing:border-box;padding-top:70px;background:#eeeff4;}
+.section-2 .txt-title-box{text-align:left;margin-top:70px;}
+.section-2 .txt-title-box span{line-height:52px;}
+.section-2 .txt-title-box span.on:before{}
+.section-2 .txt-title-box span:after{display:block;content:'';width:90px;height:75px;background:url(https://img.godo.co.kr/godomall_v2/main/icon_cl_2_2.png) no-repeat 0 0;position:absolute;top:78px;right:-77px;background-size:100%;}
+.section-2 .txt-title-box em:before{display:block;content:'';width:51px;height:39px;background:url(https://img.godo.co.kr/godomall_v2/main/icon_cl_2_3.png) no-repeat 0 0;position:absolute;top:35px;right:-126px;background-size:100%;}
+.section-2 .txt-sb-tit{text-align:left;line-height:30px;}
+.section-2 .guide-wrap{position:relative;}
+.section-2 .service-cont .item-box{-webkit-transform:translate(0px, 200px);-moz-transform:translate(0px, 200px);-ms-transform:translate(0px, 200px);transform:translate(0px, 200px);-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;transition:all .5s ease-in-out;}
+.section-2 .service-cont .item-box{display:block;width:282px;height:440px;padding:30px 29px;box-sizing:border-box;border-radius:4px;box-shadow:18px 18px 13px rgba(0, 0, 0, 0.07);background:#fff;opacity:0;transition:all 1s;}
+.section-2 .service-cont .item-box.on{-webkit-transform:translate(0px, 0px);-moz-transform:translate(0px, 0px);-ms-transform:translate(0px, 0px);transform:translate(0px, 0px);opacity:1;}
+.section-2 .service-cont .item-box:hover{-webkit-transform:translate(0px, -20px);-moz-transform:translate(0px, -20px);-ms-transform:translate(0px, -20px);transform:translate(0px, -20px);}
+.section-2 .service-cont .item-box .svc-txt-1{display:block;font-weight:400;font-size:20px;color:#111;letter-spacing:-0.03em;}
+.section-2 .service-cont .item-box .svc-txt-2{display:block;margin-top:6px;font-weight:300;font-size:15px;line-height:25px;color:#454545;}
+.section-2 .service-cont .item-box .btn-detail{display:inline-block;margin-top:20px;padding-right:20px;font-weight:400;font-size:15px;color:#f7444e;letter-spacing:-0.03em;background:url(https://img.godo.co.kr/godomall_v2/main/icon_arrow.png) no-repeat 100% 6px;background-size:17px 9px;}
+.section-2 .service-cont .item-box.pot-1{position:absolute;left:815px;top:-70px;background:#fff url(https://img.godo.co.kr/godomall_v2/main/bg_service_1.png) no-repeat 100% 100%;background-size:100%;}
+.section-2 .service-cont .item-box.pot-2{position:absolute;left:473px;top:132px;background:#fff url(https://img.godo.co.kr/godomall_v2/main/bg_service_2.png) no-repeat 100% 100%;background-size:100%;}
+.section-2 .service-cont .item-box.pot-3{position:absolute;left:130px;top:390px;background:#fff url(https://img.godo.co.kr/godomall_v2/main/bg_service_3.png) no-repeat 100% 100%;background-size:100%;}
+.section-2 .service-cont .item-box.pot-4{position:absolute;left:815px;top:430px;background:#fff url(https://img.godo.co.kr/godomall_v2/main/bg_service_4.png) no-repeat 100% 100%;background-size:100%;}
+.section-2 .service-cont .item-box.pot-5{position:absolute;left:473px;top:632px;background:#fff url(https://img.godo.co.kr/godomall_v2/main/bg_service_5.png) no-repeat 100% 100%;background-size:100%;}
+
+/* 대표 서비스 */
+.section-3{padding:204px 0 80px;box-sizing:border-box;background:#fff;;}
+.section-3 .txt-title-box em:before{display:block;content:'';width:56px;height:54px;background:url(https://img.godo.co.kr/godomall_v2/main/icon_cl_3_3.png) no-repeat 0 0;position:absolute;top:-66px;left:75px;background-size:100%;}
+.section-3 .contents-box .support-list{margin-top:49px;}
+.section-3 .contents-box .support-list:after{display:block;content:'';clear:both;}
+.section-3 .contents-box .support-list li{float:left;width:300px;}
+.section-3 .contents-box .support-list li a{display:block;}
+.section-3 .contents-box .support-list li a .img-box{width:300px;height:260px;overflow:hidden;}
+.section-3 .contents-box .support-list li a .img-box > span{display:block;width:100%;height:100%;background-position:50% 50%;background-size:300px 260px;background-repeat:no-repeat;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;transition:all .5s ease-in-out;}
+.section-3 .contents-box .support-list li a:hover .img-box > span{-webkit-transform:scale(1.1) rotate(.001deg);-moz-transform:scale(1.1) rotate(.001deg);-ms-transform:scale(1.1) rotate(.001deg);transform:scale(1.1) rotate(.001deg);}
+.section-3 .contents-box .support-list li a .text-wrap{margin-top:50px;padding:0 19px;}
+.section-3 .contents-box .support-list li a .cont-tit{display:block;line-height:32px;font-weight:400;font-size:20px;color:#111;letter-spacing:-0.03em;}
+.section-3 .contents-box .support-list li a .cont-txt-1{display:block;line-height:25px;margin-top:8px;font-weight:300;font-size:15px;color:#454545;letter-spacing:-0.03em;}
+.section-3 .contents-box .support-list li a .cont-txt-2{display:inline-block;margin-top:20px;padding-right:20px;font-weight:400;font-size:15px;color:#f7444e;letter-spacing:-0.03em;background:url(https://img.godo.co.kr/godomall_v2/main/icon_arrow.png) no-repeat 100% 50%;transition:padding .3s;background-size:17px 9px;}
+.section-3 .contents-box .support-list li a:hover .cont-txt-2{padding-right:30px;}
+
+/* 배너 */
+.banner-wrap{text-align:center;padding:32px 0 58px;background:url(https://img.godo.co.kr/godomall_v2/main/bg_banner.png) no-repeat 50% 50%;}
+.banner-wrap .txt-sb-tit{display:block;font-weight:400;font-size:20px;color:#111;letter-spacing:-0.02em;}
+.banner-wrap .txt-title-box{font-weight:600;font-size:48px;color:#111;letter-spacing:-0.048em;}
+.banner-wrap .btn-shop{width:auto;display:inline-block;margin-top:30px;}
+
+/* svg */
+.txt-title-box svg{overflow:inherit;}
+.section-1 .txt-title-box .draw-circle{display:none;}
+.section-1 .txt-title-box.ani .draw-circle{display:block;stroke-width: 4;stroke: #F7444E;fill: none;stroke-dasharray: 1000 ;animation: circle 1.5s linear;-webkit-animation-fill-mode:both;}
+.section-1 .txt-title-box .line-1{position:absolute;top:-6px;left:380px;overflow:inherit;}
+.section-1 .txt-title-box .line-2{position:absolute;bottom:-15px;left:492px;}
+.section-1 .txt-title-box .line-2 .draw-circle{animation-delay:1s;}
+.section-1 .txt-title-box .line-3{position:absolute;bottom:-11px;left:533px;}
+.section-1 .txt-title-box .line-3 .draw-circle{animation-delay:1.2s;}
+
+
+.obj-1{position:absolute;top:-6px;left:380px;overflow:inherit;}
+
+.section-2 .txt-title-box svg{position:absolute;top:45px;left:0;}
+.section-2 .txt-title-box .draw-line{display:none;}
+.section-2 .txt-title-box.ani .draw-line{display:block;stroke-width:4;stroke: #F7444E;fill:none;stroke-dasharray:1000 ;animation:line 1.5s linear;-webkit-animation-fill-mode:both;}
+.section-3 .txt-title-box .draw-line{display:none;}
+.section-3 .txt-title-box.ani .draw-line{display:block;stroke-width:3;stroke: #F7444E;fill:none;stroke-dasharray:1000 ;animation:line 1.5s linear;-webkit-animation-fill-mode:both;}
+.section-3 .txt-title-box .line-1{position:absolute;top:-15px;left:0;}
+.section-3 .txt-title-box .line-2{position:absolute;bottom:0px;left:0;}
+.section-3 .txt-title-box .line-2 .draw-line{animation-delay:1s;}
+
+@-webkit-keyframes circle {
+	from{stroke-dashoffset: 1000;}
+	to{stroke-dashoffset: 0;}
+}
+@keyframes circle {
+	from{stroke-dashoffset: 1000;}
+	to{stroke-dashoffset:0;}
+}
+
+@-webkit-keyframes line{
+	from{stroke-dashoffset: 1000;}
+	to{stroke-dashoffset: 0;}
+}
+@keyframes line{
+	from{stroke-dashoffset: 1000;}
+	to{stroke-dashoffset:0;}
+}
+
+.scrollMotion{opacity:0;transition:all 1s;-webkit-transform:translate(0, 50px);-moz-transform:translate(0, 50px);-ms-transform:translate(0, 50px);transform:translate(0, 50px);}
+.scrollMotion.on{opacity:1;-webkit-transform:translate(0, 0);-moz-transform:translate(0, 0);-ms-transform:translate(0, 0);transform:translate(0, 0);}
+
+/* [1차개편안 적용] main - phr */
+.beta .banner-wrap .btn-shop{width:205px;height:64px;}
+.beta .btn-shop span{}
+
+/* 201201 사이트맵 추가 - kbn */
+.sitemap-wrap {margin-top:-51px;overflow:hidden;background:#f7f7f7;}
+.sitemap-wrap .h3-title-wrap .title-box h3:after{display:none;}
+.sitemap-wrap .sitemap-content{padding:90px 0 0 0;}
+.sitemap-wrap .sitemap-content .blank,.sitemap-wrap .sitemap-content .link{position:Relative;font-family: 'Roboto', 'Noto Sans KR';letter-spacing:-0.3px;}
+.sitemap-wrap .sitemap-content .blank:after{content:"";position:Absolute;top:50%;right:-24px;margin:-8px 0 0 0;width:16px;height:16px;background:url('https://img.godo.co.kr/godomall_v2/main/icon_sm_blank.png') no-repeat 0 0;background-size:contain;}
+.sitemap-wrap .sitemap-content .link:after{content:"";position:absolute;top:50%;right:-24px;margin:-9px 0 0 0;width:11px;height:18px;background:url('https://img.godo.co.kr/godomall_v2/main/img_sm_arrow.png') no-repeat 0 0;background-size:contain;}            
+.sitemap-wrap .site-block-wrap{padding:70px 0 60px 0;}
+.site-block + .site-block{margin:20px 0 0 0;}
+
+.site-list-block-1{background:#ffffff;border-radius:10px;padding:30px 0 50px 30px;width:224px;height:700px;vertical-align:top;box-sizing:border-box;display:inline-block;margin:0 0 0 17px;}
+.site-list-block-1:first-of-type{margin:0;}
+.site-list-block-1 .site-list-tit a{font-size:26px;color:#111111;font-weight:bold;}
+.site-list-block-1 .site-list-tit a:after{content:"";display:inline-block;margin:0 0 0 8px;width:11px;height:18px;background:url('https://img.godo.co.kr/godomall_v2/main/img_sm_arrow.png') no-repeat center center;background-size:contain;}
+.site-list-block-1 .site-list-tit a:hover{color:#f7444e}
+.site-list-block-1 .site-list-tit a:hover:after{background:url('https://img.godo.co.kr/godomall_v2/main/img_sm_arrow_on.png') no-repeat 0 0;background-size:contain;}
+
+.site-list-block-1 .site-list-cont>ul>li:first-child{margin:35px 0 0 0;}
+.site-list-block-1 .site-list-cont>ul>li + li{margin:25px 0 0 0;}
+.site-list-block-1 .site-list-cont>ul>li:hover .site-list-1depth>a{color:#f7444e;text-decoration:underline;}
+.site-list-block-1 .site-list-cont .site-list-1depth>a{font-size:16px;font-weight:500;}
+.site-list-block-1 .site-list-cont .site-list-2depth>li{margin:15px 0 0 0;}
+.site-list-block-1 .site-list-cont .site-list-2depth>li>a{font-size:15px;color:#454545;}
+.site-list-block-1 .site-list-cont .site-list-2depth>li>a.blank:after{content: "";position: absolute;top: 50%;right: -15px;width: 10px;height: 10px;background: url('https://img.godo.co.kr/godomall_v2/main/icon_new_window.png') no-repeat 0 0;background-size: contain;margin: -5px 0 0 0;}
+.site-list-block-1 .site-list-cont .site-list-2depth>li>a:hover{text-decoration:underline}
+.site-list-block-1 .site-list-cont .site-list-2depth>li>a:before{content:"-";display:inline-block;margin:0 0 2px 0;}
+
+.site-list-block-2{padding:40px 0;border-bottom:1px solid #e6e6e6;font-family:'Roboto', 'Noto Sans KR';}
+.site-list-block-2 .site-list-tit{font-size:26px;font-weight:bold;width:240px;display:inline-block;color:#111111;}
+.site-list-block-2:last-child{border-bottom:0}
+.site-list-block-2:hover .site-list-tit>a{color:#f7444e;}
+.site-list-block-2:hover .site-list-tit>a.link:after{background:url('https://img.godo.co.kr/godomall_v2/main/img_sm_arrow_on.png') no-repeat 0 0;background-size:contain;}
+.site-list-block-2.col-4 .site-list-tit{margin:0 215px 0 0;width:auto;}
+.site-list-block-2.col-4 .site-list-tit>a:hover{color:#f7444e !important;}
+.site-list-block-2.col-4:hover .site-list-tit>a{color:#111111;}
+.site-list-block-2 .site-list-cont{display:inline-block;}
+.site-list-block-2 .site-list-cont li{display:inline-block;width:195px;margin:0 0 0 -6px;}
+.site-list-block-2 .site-list-cont li>a{font-size:18px;font-weight:500;}
+.site-list-block-2 .site-list-cont li>a:hover{color:#f7444e;text-decoration:underline;}
+
+
+
+
+
+body.banner-all{overflow:hidden;}
+.banner-all-wrap{display:none;}
+.banner-all-wrap.open{display:block;width:100%;height:100%;background:rgba(0, 0, 0, 0.5);position:fixed;top:0;left:0;z-index:1000;}
+.banner-all-wrap .inner-scroll{width:100%;height:100%;overflow-y:auto;}
+.banner-all-wrap ul{width:100%;}
+.banner-all-wrap ul:after{display:block;content:'';clear:both;}
+.banner-all-wrap ul li{float:left;width:50%;}
+.banner-all-wrap ul li a{display:inline-block;}
+.banner-all-wrap ul li a img{width:100%;}
